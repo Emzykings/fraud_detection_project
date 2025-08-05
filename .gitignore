@@ -1,0 +1,38 @@
+# Ignore virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit generated files
+.streamlit/
+
+# VS Code and JetBrains IDE configs
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore datasets and outputs
+data/train_data/
+data/test_data/
+*.xlsx
+*.csv
+*.png
+*.json
+
+# Ignore model files (optional)
+*.pt
+*.h5
+*.pkl
